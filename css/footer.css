@@ -1,0 +1,35 @@
+footer {
+  background-color: #d9d9d9;
+  padding: 2rem 0 1rem 0;
+}
+
+.social .bi {
+  font-size: 24px;
+  margin: 0 .35rem;
+  color: #000;
+  transition: all .3s ease;
+}
+
+.social {
+  margin-bottom: .5rem;
+}
+
+.bi-facebook:hover {
+	color: #4267B2;
+}
+
+.bi-twitter:hover {
+	color: #1DA1F2;
+}
+
+.bi-instagram:hover {
+	color: #C13584;
+}
+
+.bi-linkedin:hover {
+	color: #006192;
+}
+
+.bi-pinterest:hover {
+	color: #E60023;
+}
