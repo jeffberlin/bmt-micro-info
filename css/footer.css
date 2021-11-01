@@ -33,3 +33,7 @@ footer {
 .bi-pinterest:hover {
 	color: #E60023;
 }
+
+.footer p {
+  font-size: .9rem;
+}

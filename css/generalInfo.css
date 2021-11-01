@@ -1,0 +1,33 @@
+.general {
+  padding: 6rem 0 3rem 0;
+}
+
+.general-title {
+  letter-spacing: .5px;
+  color: #000;
+  margin-bottom: 1.5rem;
+}
+
+.general .question {
+  letter-spacing: .3px;
+  font-weight: 600;
+  margin-bottom: .5rem;
+}
+
+.general .answer {
+  padding: 10px 20px;
+  border-left: 5px solid #195a7c;
+  background-color: #f4f4f4;
+  border-radius: 0 3px 3px 0;
+  font-weight: 300;
+  margin-bottom: 2rem;
+}
+
+.general p a {
+  color: #efa900;
+  transition: all .3s ease;
+}
+
+.general p a:hover {
+  color: #195a7c;
+}
