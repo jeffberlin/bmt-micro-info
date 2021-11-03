@@ -22,11 +22,11 @@ a:active, a:focus, button:focus, button:active, [role="button"]:focus, [role="bu
 p {
   font-family: 'Rubik', sans-serif;
   letter-spacing: .3px;
-  color: #707070;
+  /* color: #707070; */
 }
 
 .body-content {
-  min-height: calc(100vh - 132px);
+  min-height: calc(100vh - 129px);
 }
 
 h1, h4, h5 {
