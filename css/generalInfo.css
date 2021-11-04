@@ -23,11 +23,20 @@
   margin-bottom: 2rem;
 }
 
-.general p a {
+.question, .answer {
+  color: #707070;
+}
+
+.general p a, .general ul li a {
   color: #efa900;
   transition: all .3s ease;
 }
 
-.general p a:hover {
+.general p a:hover, .general ul li a:hover {
   color: #195a7c;
+}
+
+ul li {
+  font-family: 'Rubik', sans-serif;
+  letter-spacing: .3px;
 }
