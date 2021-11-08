@@ -19,7 +19,7 @@ a:active, a:focus, button:focus, button:active, [role="button"]:focus, [role="bu
   box-shadow: none;
 }
 
-p {
+p, input {
   font-family: 'Rubik', sans-serif;
   letter-spacing: .3px;
 }

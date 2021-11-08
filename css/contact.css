@@ -1,0 +1,68 @@
+.contact {
+  background: #fff;
+}
+
+.body-content {
+  background: #195a7c;
+}
+
+.contact-input::-moz-placeholder {
+  font-weight: 300;
+  color: #707070;
+}
+
+.contact-input::-moz-placeholder, .contact-input:-ms-input-placeholder, .contact-input::placeholder {
+  font-weight: 300;
+  color: #707070;
+}
+
+.contact-text  {
+  font-weight: 300;
+}
+
+.contact p, .contact label{
+  color: #707070;
+}
+
+.contact label {
+  font-weight: 400;
+}
+
+.contact label, .submit-btn input {
+  letter-spacing: .3px;
+}
+
+.contact-input {
+  font-size: .9rem;
+  border-radius: 5px;
+  border: 1px solid #195a7c;
+  padding: .3rem .5rem;
+}
+
+.contact-input, .submit-btn input {
+  transition: all .3s ease;
+}
+
+.contact-input:focus {
+  outline: 1px solid #efa900;
+  border: 1px solid #efa900;
+}
+
+.submit-btn input {
+  border: none;
+  border-radius: 7px;
+  color: #fff;
+  padding: .4rem .9rem;
+  font-family: 'Rubik', sans-serif;
+  background: #195a7c;
+
+}
+
+.submit-btn input:hover {
+  background-color: #efa900;
+  text-shadow: 1px 1px 1px rgb(214 129 0);
+}
+
+.submit-btn input:first-child {
+  margin-right: .5rem;
+}
