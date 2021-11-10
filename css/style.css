@@ -31,3 +31,9 @@ p, input {
 h1, h4, h5 {
   font-family: 'Montserrat', sans-serif;
 }
+
+@media (max-width: 575px) {
+  .cs-image {
+    display: none;
+  }
+}
