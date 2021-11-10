@@ -97,7 +97,7 @@
               <h4 class="page-title">Contact BMT Micro Customer Support</h4>
               <p class="contact-text">Please provide as much information as possible about the product in question. If your inquiry is about an order you have already placed, be sure to use the name and email address used when placing the order to help expedite your request. Fields marked with an * are required.</p>
             </div> <!-- /.col -->
-            <div class="offset-xl-2 offset-lg-2 offset-md-0 col-xl-6 col-lg-6 col-md-12 col-sm-12">
+            <div class="offset-xl-2 offset-lg-2 offset-md-0 col-xl-6 col-lg-6 col-md-6 col-sm-12">
               <form name="form1" method="post" action="https://secure.bmtmicro.com/servlets/System.EMailTemplate" onsubmit="return process (form1);">
                 <input type="hidden" name="EMAILTEMPLATE" value="https://info.bmtmicro.com/contact/email.txt" />
                 <input type="hidden" name="NEXT_PAGE" value="https://info.bmtmicro.com/" />
@@ -105,7 +105,7 @@
                 <div class="mb-3">
                   <label for="formControlInput1">Your Name*:</label>
                   <br />
-                  <input class="contact-input" id="formControlInput1" name="NAME" type="text" maxlength="80" placeholder="Enter Name" />
+                  <input class="contact-input" id="formControlInput1" name="NAME" type="text" size="40" maxlength="80" placeholder="Enter Name" />
                 </div> <!-- /.mb-3 -->
                 <div class="mb-3">
                   <label for="formControlInput2">Email Address*:</label>
@@ -125,7 +125,7 @@
                 <div class="mb-3">
                   <label for="formControlInput5">Order ID/# (if available):</label>
                   <br />
-                  <input class="contact-input" id="formControlInput5" name="Order_ID" type="text" size="20" maxlength="20" placeholder="Enter Order ID/#" />
+                  <input class="contact-input" id="formControlInput5" name="Order_ID" type="text" size="40" maxlength="20" placeholder="Enter Order ID/#" />
                 </div> <!-- /.mb-3 -->
                 <div class="mb-3">
                   <label for="formControlInput6">Subject*:</label>
@@ -135,7 +135,7 @@
                 <div class="mb-3">
                   <label for="formControlTextArea1">Question/Comment*:</label>
                   <br />
-                  <textarea class="contact-input" id="formControlTextArea1" name="DESCRIPTION" cols="43" rows="6" placeholder="Type your message here."></textarea>
+                  <textarea class="contact-input" id="formControlTextArea1" name="DESCRIPTION" cols="40" rows="6" placeholder="Type your message here."></textarea>
                 </div> <!-- /.mb-3 -->
                 <div class="mb-3 submit-btn">
                   <input type="reset" name="Clear Form" value="Reset" />
