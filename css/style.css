@@ -24,6 +24,10 @@ p, input {
   letter-spacing: .3px;
 }
 
+p {
+  font-weight: 300;
+}
+
 .body-content {
   min-height: calc(100vh - 129px);
 }

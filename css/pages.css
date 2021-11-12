@@ -3,9 +3,12 @@
 }
 
 .page-title {
-  color: #000;
   letter-spacing: .5px;
   margin-bottom: 1.5rem;
+}
+
+.page-title, .modal-title {
+  color: #000;
 }
 
 .question {
@@ -37,12 +40,8 @@
   transition: all .3s ease;
 }
 
-.page p a:hover, .page ul li a:hover {
+.page p a:hover, .page ul li a:hover, .cache-btn:hover {
   color: #195a7c;
-}
-
-.modal-title {
-  color: #000;
 }
 
 .modal-body, ul li, .cache-btn {
@@ -72,5 +71,4 @@
 
 .cache-btn:hover {
   background-color: #efa900;
-  color: #195a7c;
 }
