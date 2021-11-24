@@ -1,2 +1,2 @@
 # bmt-micro-info
-Redesign for info.bmtmicro.com
+Redesign for https://info.bmtmicro.com
