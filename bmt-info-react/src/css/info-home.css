@@ -1,0 +1,24 @@
+.info-home {
+  padding: 8rem 0 3rem 0;
+}
+
+.info-home-title {
+  color: #195a7c;
+  letter-spacing: .5px;
+  font-size: 2.1rem;
+  margin-bottom: 2rem;
+}
+
+.info-home p {
+  font-weight: 300;
+  color: #707070;
+}
+
+.info-home p a {
+  color: #efa900;
+  transition: all .3s ease;
+}
+
+.info-home p a:hover {
+  color: #195a7c;
+}
