@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container, Navbar, Image, Nav, NavDropdown } from 'react-bootstrap';
+import { LinkContainer } from 'react-router-bootstrap';
 
 function Navigation() {
   return (
@@ -11,9 +12,9 @@ function Navigation() {
         variant="light"
       >
         <Container>
-          <Navbar.Brand href="/">
+          <Navbar.Brand href="https://www.bmtmicro.com">
             <Image
-              src="https://www.bmtmicro.com/images/bmt-micro-nav-logo-min.png"
+              src="https://info.bmtmicro.com/images/bmt-micro-nav-logo-min.png"
               alt="BMT Micro, Inc. Logo"
               width={120}
               className="d-inline-block"
@@ -22,10 +23,10 @@ function Navigation() {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">
             <Nav>
-              <Nav.Link>Home</Nav.Link>
-              <Nav.Link>General Information</Nav.Link>
-              <Nav.Link>Payments & Refunds</Nav.Link>
-              <Nav.Link>Downloading & Delivery</Nav.Link>
+              <LinkContainer to="/"><Nav.Link>Home</Nav.Link></LinkContainer>
+              <LinkContainer to="/general-information"><Nav.Link>General Information</Nav.Link></LinkContainer>
+              <LinkContainer to="payments-refunds"><Nav.Link>Payments & Refunds</Nav.Link></LinkContainer>
+              <LinkContainer to="downloading-delivery"><Nav.Link>Downloading & Delivery</Nav.Link></LinkContainer>
               <Nav.Link href="https://www.bmtmicro.com/contact">Contact</Nav.Link>
               <NavDropdown title="Login" id="collasible-nav-dropdown">
                 <NavDropdown.Item href="https://vendors.bmtmicro.com">Vendors</NavDropdown.Item>

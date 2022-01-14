@@ -7,6 +7,9 @@ import './css/footer.css';
 import Navigation from './Components/Navigation';
 
 const InfoHome = lazy(() => import('./Components/InfoHome'));
+const GeneralInformation = lazy(() => import('./Components/GeneralInformation'));
+const PaymentsRefunds = lazy(() => import('./Components/PaymentsRefunds'));
+const DownloadingDelivery = lazy(() => import('./Components/DownloadingDelivery'));
 const Footer = lazy(() => import('./Components/Footer'));
 
 function App() {
@@ -16,6 +19,9 @@ function App() {
         <Navigation />
         <Routes>
           <Route path="/" element={<InfoHome />} />
+          <Route path="/general-information" element={<GeneralInformation />} />
+          <Route path="/payments-refunds" element={<PaymentsRefunds />} />
+          <Route path="/downloading-delivery" element={<DownloadingDelivery />} />
         </Routes>
         <Footer />
       </Suspense>
