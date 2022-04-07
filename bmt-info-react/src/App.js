@@ -11,6 +11,7 @@ const GeneralInformation = lazy(() => import('./Components/GeneralInformation'))
 const PaymentsRefunds = lazy(() => import('./Components/PaymentsRefunds'));
 const DownloadingDelivery = lazy(() => import('./Components/DownloadingDelivery'));
 const Footer = lazy(() => import('./Components/Footer'));
+const Error = lazy(() => import('./Components/Error'));
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path="/general-information" element={<GeneralInformation />} />
           <Route path="/payments-refunds" element={<PaymentsRefunds />} />
           <Route path="/downloading-delivery" element={<DownloadingDelivery />} />
+          <Route path="*" element={<Error />} />
         </Routes>
         <Footer />
       </Suspense>
