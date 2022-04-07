@@ -1,7 +1,10 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Container, Row, Col, Image } from 'react-bootstrap';
 
 function InfoHome() {
+  useEffect(() => {
+    document.title = "BMT Micro Customer Service"
+  })
   return (
     <div className="body-content">
       <Container className="info-home">
@@ -29,7 +32,7 @@ function InfoHome() {
         </Row>
       </Container>
     </div>
-  );
+  )
 }
 
 export default InfoHome;

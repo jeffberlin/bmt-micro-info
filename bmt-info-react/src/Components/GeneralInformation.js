@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import AOL5Modal from './GeneralInfoModals/AOL5Modal';
 import AOL6Modal from './GeneralInfoModals/AOL6Modal';
@@ -15,6 +15,9 @@ import NS6Modal from './GeneralInfoModals/NS6Modal';
 import NS7Modal from './GeneralInfoModals/NS7Modal';
 
 function GeneralInfo() {
+  useEffect(() => {
+    document.title = "BMT Micro Customer Service - General Info"
+  })
   const [AOL5modalShow, AOL5ModalShow] = useState(false);
   const [AOL6modalShow, AOL6ModalShow] = useState(false);
   const [AOL7modalShow, AOL7ModalShow] = useState(false);
@@ -283,7 +286,7 @@ function GeneralInfo() {
         </Row>
       </Container>
     </div>
-  );
+  )
 }
 
 export default GeneralInfo;

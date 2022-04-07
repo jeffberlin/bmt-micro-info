@@ -1,7 +1,10 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 
 function DownloadingDelivery() {
+  useEffect(() => {
+    document.title = "BMT Micro Customer Service - Downloading/Delivery"
+  })
   return (
     <div className="body-content">
       <Container className="page">

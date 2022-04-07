@@ -1,7 +1,10 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 
 function Error() {
+  useEffect(() => {
+    document.title = "BMT Micro Customer Service - Error"
+  })
   return (
     <div className="body-content">
       <Container className="info-home">

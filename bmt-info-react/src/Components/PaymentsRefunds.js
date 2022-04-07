@@ -1,8 +1,11 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 
 function PaymentsRefunds() {
-  return (
+  useEffect(() => {
+    document.title = "BMT Micro Customer Service - Payments/Refunds"
+  })
+  return(
     <div className="body-content">
       <Container className="page">
         <Row className="justify-content-center">
