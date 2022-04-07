@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Container, Row, Col, Image } from 'react-bootstrap';
+import { Container, Row, Col } from 'react-bootstrap';
 import AOL5Modal from './GeneralInfoModals/AOL5Modal';
 import AOL6Modal from './GeneralInfoModals/AOL6Modal';
 import AOL7Modal from './GeneralInfoModals/AOL7Modal';
@@ -95,7 +95,7 @@ function GeneralInfo() {
               <p>BMT Micro</p>
               <p>PO Box 15016</p>
               <p>Wilmington, NC 28408</p>
-              <p>Fax: <a href="#">910-792-1889</a></p>
+              <p>Fax: <span style={{ color: "#efa900"}}>910-792-1889</span></p>
               <p>You can find our offline order form <a href="https://www.bmtmicro.com/support/misc_forms/Offline_OrderForm.html" target="_blank" title="Support form" rel="noreferrer">here</a>.</p>
               <p style={{ marginBottom: '.5rem' }}>We accept many methods of payment including:</p>
               <ul>
