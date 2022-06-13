@@ -1,0 +1,150 @@
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+  text-align: inherit;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a, a:hover {
+  text-decoration: none !important;
+}
+
+a:active, a:focus, button:focus, button:active, [role="button"]:focus, [role="button"]:active, .btn:focus, .btn:active {
+  outline: none !important;
+  border: none !important;
+  box-shadow: none;
+}
+
+p, ul, nav, input {
+  font-family: 'Rubik', sans-serif;
+}
+
+.body-content {
+  min-height: calc(100vh - 129px);
+}
+
+h1, h4, h5 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.page {
+  padding: 6rem 0 3rem 0;
+}
+
+.page-title {
+  letter-spacing: .5px;
+  margin-bottom: 1.5rem;
+}
+
+.page-title, .modal-title {
+  color: #000;
+}
+
+.question {
+  font-weight: 600;
+  margin-bottom: .5rem;
+}
+
+.answer {
+  padding: 10px 20px;
+  border-left: 5px solid #195a7c;
+  background-color: #f4f4f4;
+  border-radius: 0 3px 3px 0;
+  margin-bottom: 2rem;
+}
+
+.answer p:last-child, .cache-section, .page ul li:last-child {
+  margin-bottom: 0;
+}
+
+.question, .answer, .modal-body {
+  color: #707070;
+}
+
+.page p a {
+  color: #efa900;
+}
+
+.page p a, .cache-btn {
+  transition: all .3s ease;
+}
+
+.page p a:hover, .page ul li a:hover, .cache-btn:hover {
+  color: #195a7c;
+}
+
+.modal-body, ul li, .cache-btn {
+  font-family: 'Rubik', sans-serif;
+  font-size: 1rem;
+}
+
+.page .question, .modal-body, ul li, .cache-btn {
+  letter-spacing: .3px;
+}
+
+.answer, .modal-body {
+  font-weight: 300;
+}
+
+.cache-section li {
+  margin-bottom: .8rem;
+}
+
+.cache-btn {
+  border: none;
+  border-radius: 10px;
+  background-color: #195a7c;
+  color: #fff;
+  padding: .3rem 1rem;
+}
+
+.cache-btn:hover {
+  background-color: #efa900;
+}
+
+/* page transitions */
+.fadeIn {
+  animation: 0.2s fadeIn forwards;
+}
+
+.fadeOut {
+  animation: 0.2s fadeOut forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translate(0px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate(0px, 0px);
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+    transform: translate(0px, 0px);
+  }
+  to {
+    transform: translate(0px, 0);
+    opacity: 0;
+  }
+}
+
+@media (max-width: 575px) {
+  .cs-image {
+    display: none;
+  }
+}
+
+@media (max-width: 420px) {
+  .cache-section {
+    padding-left: 0;
+  }
+}
