@@ -46,7 +46,7 @@ function GeneralInfo() {
           </Col>
           <Col xl={10} lg={12} md={12} sm={12}>
             <div className="answer">
-              <p>BMT Micro is a software distribution and order fulfillment service for professional through part time software developers.</p>
+              <p>BMT Micro is a software distribution and order fulfillment service for professional through part time software developers. BMT Micro is headquartered in Wilmington, NC (USA), with a secondary office location in Turku, Finland ("BMT Micro Finland").</p>
             </div>
           </Col>
           <Col xl={10} lg={12} md={12} sm={12}>
