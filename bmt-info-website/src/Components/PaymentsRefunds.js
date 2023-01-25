@@ -63,8 +63,9 @@ function PaymentsRefunds() {
               <p style={{ marginBottom: '.5rem' }}><strong>Cash</strong></p>
               <p>We do not recommend sending cash or currency in the mail. If you do choose this method, however, we will be responsible only for delivery if the mail containing your registration and cash require a signature upon receipt of delivery by a BMT Micro employee.</p>
               <p>We accept cash payments in USD, Euro, Canadian, or British currency in any amount. Please make sure that the cash payment also covers any and all currency exchange rate variations (<a href="http://www.xe.com/ucc/" target="_blank" rel="noreferrer">http://www.xe.com/ucc/</a>).</p>
-              <p style={{ marginBottom: '.2rem' }}><em>Special Information for our German Customers</em></p>
-              <p>Any program we distribute can also be purchased by depositing the registration fee into our account with Commerzbank. Please fill out our <a href="https://www.bmtmicro.com/support/misc_forms/Offline_OrderForm.html" target="_blank" title="Support form" rel="noreferrer">off-line order form</a> and mail or fax to us before depositing funds into account.</p>
+              <p style={{ marginBottom: '.5rem' }}><em>Special Information for our EU Customers</em></p>
+              <p style={{ marginBottom: '.2rem' }}><u>Bank transer in Euro</u></p>
+              <p>Any program we distribute can also be purchased by bank transfer of the order total into our account with Commerzbank. Please fill out our&nbsp;<a href="https://www.bmtmicro.com/support/misc_forms/Offline_OrderForm.html" target="_blank" title="Support form" rel="noreferrer">off-line order form</a>&nbsp;and mail or fax to us before depositing funds into account.</p>
               <ul style={{ listStyleType: 'none' }}>
                 <li>Commerzbank, Frankfurt am Main</li>
                 <li>Empfänger: BMT Micro, Inc.</li>
@@ -73,7 +74,9 @@ function PaymentsRefunds() {
                 <li>BIC/Swift Code: COBADEFFXXX</li>
                 <li>IBAN: DE21 5004 0000 0582 3448 00</li>
               </ul>
-              <p>When purchasing a product via transfer into our Commerzbank account, it is imperative that you submit an <a href="https://www.bmtmicro.com/support/misc_forms/Offline_OrderForm.html" target="_blank" rel="noreferrer">order form</a> for the product you are purchasing. In the form's credit card field, type COMMERZBANK. We will enter the order into our system, and as soon as your transfer arrives in our account, we will fill the order. Remember, without an order form on file, we have no way of knowing who you are or what you purchased.</p>
+              <p>When purchasing a product via transfer into our Commerzbank account, it is imperative that you submit an&nbsp;<a href="https://www.bmtmicro.com/support/misc_forms/Offline_OrderForm.html" target="_blank" rel="noreferrer">order form</a>&nbsp;for the product you are purchasing. In the form's credit card field, type COMMERZBANK. We will enter the order into our system, and as soon as your transfer arrives in our account, we will fill the order. Remember, without an order form on file, we have no way of knowing who you are or what you purchased.</p>
+              <p>Please also note that we <u>must</u> receive the full amount of the order total. Any applicable bank transfer fees are the responsibility of the customer.</p>
+              <p>For inquiries on European bank transfers or Euro purchases in this way, please contact our BMT Micro Finland office, through <a href="mailto:marina@bmtmicro.com">marina@bmtmicro.com</a>.</p>
             </div>
           </Col>
           <Col xl={10} lg={12} md={12} sm={12}>
