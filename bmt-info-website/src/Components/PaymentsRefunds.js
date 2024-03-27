@@ -33,6 +33,7 @@ function PaymentsRefunds() {
                 <li>Cash</li>
                 <li>PayPal</li>
                 <li>Amazon Payments</li>
+                <li>iDEAL</li>
                 <li>paysafecard</li>
                 <li>VISA/MC Debit Cards from USA banks</li>
                 <li>Maestro/Solo Debit Cards from UK banks</li>
