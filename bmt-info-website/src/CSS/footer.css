@@ -3,7 +3,7 @@ footer {
   padding: 2rem 0 1rem 0;
 }
 
-.social .bi {
+.social .fab {
   font-size: 24px;
   margin: 0 .35rem;
   color: #000;
@@ -14,24 +14,24 @@ footer {
   margin-bottom: .5rem;
 }
 
-.bi-facebook:hover {
+.facebook:hover {
 	color: #4267B2;
 }
 
-.bi-twitter:hover {
-	color: #1DA1F2;
+.x:hover {
+	color: #0465b0;
 }
 
-.bi-instagram:hover {
+.instagram:hover {
 	color: #C13584;
 }
 
-.bi-linkedin:hover {
+.linkedin:hover {
 	color: #006192;
 }
 
-.bi-pinterest:hover {
-	color: #E60023;
+.bluesky:hover {
+  color: #4f9bd9;
 }
 
 .footer p {

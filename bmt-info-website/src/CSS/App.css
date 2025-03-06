@@ -24,7 +24,7 @@ p, ul, nav, input {
 }
 
 .body-content {
-  min-height: calc(100vh - 129px);
+  min-height: calc(100vh - 118px);
 }
 
 h1, h4, h5 {
