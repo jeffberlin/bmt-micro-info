@@ -13,7 +13,7 @@ function Navigation() {
     <>
       <Navbar
         fixed="top"
-        expand="md"
+        expand="xl"
         collapseOnSelect
       >
         <Container>

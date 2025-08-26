@@ -3,22 +3,50 @@
 }
 
 .info-home-title {
-  color: #195a7c;
   letter-spacing: .5px;
   font-size: 2.1rem;
   margin-bottom: 2rem;
 }
 
-.info-home p {
-  font-weight: 300;
+.body-text {
   color: #707070;
 }
 
-.info-home p a {
+.body-text, .customer-resources p {
+  font-weight: 300;
+}
+
+.info-home p a, .customer-resources a {
   color: #efa900;
   transition: all .3s ease;
 }
 
-.info-home p a:hover {
+.info-home-title, .info-home p a:hover, .customer-resources a:hover {
   color: #195a7c;
+}
+
+.blocks-img-1, .blocks-img-2 {
+  width: 120px;
+}
+
+.customer-resources {
+  background-color: #000;
+}
+
+.customer-resources, .about-section .row {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.customer-resources h3 {
+  letter-spacing: .5px;
+  margin-bottom: .8rem;
+}
+
+.customer-resources h3, .customer-resources p {
+  color: #fff;
+}
+
+.about-section h5 {
+  color: #efa900;
 }

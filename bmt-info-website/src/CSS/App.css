@@ -27,7 +27,7 @@ p, ul, nav, input {
   min-height: calc(100vh - 118px);
 }
 
-h1, h4, h5 {
+h1, h3, h4, h5 {
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -137,9 +137,31 @@ h1, h4, h5 {
   }
 }
 
-@media (max-width: 575px) {
-  .cs-image {
+@media (max-width: 992px) {
+  .blocks-img-2 {
     display: none;
+  }
+}
+
+@media (min-width: 769px) {
+  .blocks-img-1 {
+    width: 120px;
+  }
+}
+
+@media (max-width: 768px) {
+  .blocks-img-1 {
+    width: 100px !important;
+  }
+}
+
+@media (max-width: 575px) {
+  .cs-image, .blocks-img-1 {
+    display: none;
+  }
+  .about-img {
+    width: 80px;
+    margin-bottom: 1.5rem;
   }
 }
 
