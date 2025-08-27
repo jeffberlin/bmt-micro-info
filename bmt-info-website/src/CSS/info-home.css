@@ -33,8 +33,11 @@
   background-color: #000;
 }
 
-.customer-resources, .about-section .row {
+.customer-resources {
   padding-top: 3rem;
+}
+
+.customer-resources, .about-section .row {
   padding-bottom: 3rem;
 }
 
@@ -45,6 +48,10 @@
 
 .customer-resources h3, .customer-resources p {
   color: #fff;
+}
+
+.about-section .row {
+  padding-top: 4rem;
 }
 
 .about-section h5 {
