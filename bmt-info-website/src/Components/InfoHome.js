@@ -29,7 +29,7 @@ function InfoHome() {
         </Row>
         <Row className="justify-content-center">
           <Col xl={10} lg={10} md={8} sm={10} xs={12}>
-            <p className="body-text">We have tried to answer the most frequently asked questions about our services here, and we will continue to update this site with any new questions. Be sure to use the links above and explore our entire database of information. If you are unable to locate the information you need, please feel free to contact our Customer Service department <a href="https://www.bmitmicro.com/contact">here</a>.</p>
+            <p className="body-text">We have tried to answer the most frequently asked questions about our services here, and we will continue to update this site with any new questions. Be sure to use the links above and explore our entire database of information. If you are unable to locate the information you need, please feel free to contact our Customer Service department <a href="https://www.bmtmicro.com/contact">here</a>.</p>
             
           </Col>
         </Row>

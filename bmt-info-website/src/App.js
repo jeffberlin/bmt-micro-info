@@ -15,6 +15,8 @@ const Home = React.lazy(() => import('./Components/InfoHome'));
 const GeneralInformation = React.lazy(() => import('./Components/GeneralInformation'));
 const PaymentsRefunds = React.lazy(() => import('./Components/PaymentsRefunds'));
 const DownloadingDelivery = React.lazy(() => import('./Components/DownloadingDelivery'));
+const VenAffUnsubscribe = React.lazy(() => import('./Components/VendorAffiliateUnsubscribe'));
+const CustomerUnsubscribe = React.lazy(() => import('./Components/CustomerUnsubscribe'));
 
 function useScrollToTop() {
   const { pathname } = useLocation();
@@ -75,6 +77,22 @@ function App() {
             element={
               <Suspense fallback={<div>Loading...</div>}>
                 <DownloadingDelivery />
+              </Suspense>
+            }
+          />
+          <Route
+            path="vendor-unsubscribe"
+            element={
+              <Suspense fallback={<div>Loading...</div>}>
+                <VenAffUnsubscribe />
+              </Suspense>
+            }
+          />
+          <Route
+            path="customer-unsubscribe"
+            element={
+              <Suspense fallback={<div>Loading...</div>}>
+                <CustomerUnsubscribe />
               </Suspense>
             }
           />
